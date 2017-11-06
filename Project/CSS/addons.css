@@ -1,0 +1,51 @@
+html body{
+	position: relative;
+	height: 100%;
+	background-color: #7866ad;
+	font-family: Roboto, Helvetica, Arial, Sans-serif;
+}
+
+#disclaimer {
+	color: #ccc;
+}
+
+#helpdesktitle {
+	color: #000;
+	font-size: 25px;
+	text-align: center;
+	font-weight: 600;
+}
+
+#helpdeskbox b{
+	color: #000;
+}
+
+#helpdeskbox {
+	color: #050505;
+}
+
+#aboutustitle {
+	color: #000;
+	font-size: 30px;
+	text-align: center;
+	font-weight: 600;	
+}
+
+#abouttable b{
+	font-size: 25px;
+}
+
+#message {
+	margin-top: 10em;
+	color: white;
+	font-size: 2em;
+	font-weight: 600;
+	margin: 2em;
+	background-color: rgba(0,0,0,0.5);
+	padding: 2em;
+}
+
+#cancelbody {
+	background-color: #00294d;
+	background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
+}

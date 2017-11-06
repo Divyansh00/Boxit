@@ -1,0 +1,38 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	/*background-color: #3cc5ae;*/
+	background-color: #1c9c86;
+}
+
+#mapbox {
+	margin: 2px;
+}
+
+#citydata {
+	padding: 0.6em;
+	background-color: #1c9c86;
+}
+
+#citydata input[type=text], input[type=submit], input[type=reset] {
+	padding: 0.69em;
+	font-size: 15px;
+}
+
+#citydata input[type=submit], input[type=reset] {
+	width: 80px;
+	border: 0;
+    background-color: #295650;
+    color: #ffffff;
+    font-weight: 500;
+	/*padding: 0.8em;*/
+	text-align: center;
+	cursor: pointer;
+	opacity: 0.85;
+}
+
+#citydata input[type=submit]:hover, input[type=reset]:hover {
+	cursor: pointer;
+	opacity: 1;
+}

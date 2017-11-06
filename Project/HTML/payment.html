@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BOXiT-Pay For The Order</title>
+</head>
+<body>
+	<fieldset style=" background-color: purple;"><textarea rows="5%" style="background-color: purple;">abc</textarea></fieldset>
+<div align="center">
+	<form action="pay.php" style="background-color: #bbd2f7; width: 40%; border-radius: 5px; margin-top: 10%;">
+		<fieldset style="border-radius: 6px;">
+			<legend><h3 style="font-family: Garamond;">Mode of Payment:</h3></legend>
+			<table>
+				<tr>
+					<td>Merchant Name:</td>
+					<td><input type="text" name="merchant" value="BOXiT International" readonly="true" /></td>
+				</tr>
+				<tr>
+					<td>Amount Payable:</td>
+					<td><input type="text" name="merchant" value="VALUE FROM PHP" readonly="true" /></td>
+				</tr>
+			<tr>
+			<td colspan="2" width="100%">
+			<table style="height: 100px;width: 100%; border: 1px solid black;" frame="box">
+				<tr><th colspan="2">Order Summary:</th><tr>
+				<tr>
+					<td>Base Fare :</td>
+					<td><label>&#8377;val</label></td>
+				</tr>
+				<tr>
+					<td>Taxes :</td>
+					<td><label>&#8377;val</label></td>
+				</tr>
+				<tr>
+					<td>Total :</td>
+					<td><label>&#8377;val</label></td>
+				</tr>
+			</td>
+		</table>
+
+			</tr>
+				<tr>
+					<td>Payment Mode:</td>
+					<td><select style="width: 100%;">
+						<option value="netbanking">NetBanking</option>
+						<option value="debitcard">Debit Card</option>
+						<option value="creditcard">Credit Card</option>
+						<option value="COD" selected="selected">Cash on Delivery</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td colspan="2" style="text-align: center;"><input type="submit" value="Pay Now" style="width: 100px;height:25px; background-color: #567bb7; color: white; border-width:4px; border-color: grey;border-radius: 14px; margin-top: 12px; " /></td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+</div>
+	
+</body>
+</html>

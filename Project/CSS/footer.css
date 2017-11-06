@@ -1,0 +1,44 @@
+#footer {
+    width: 100%;
+    background-color: #1c9c86;
+    color: #fff;
+    text-align: center;
+
+}
+
+#loginbg #footer, #placeorderbody #footer, #myorderbody #footer, #myaccountbody #footer, #placeorderformbody #footer, #cancelbody #footer{
+	bottom: 0;
+	position: absolute;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#placeordermapbody #footer{
+	background-color: #1c9c86;
+}
+
+
+#footer > table {
+	display: flex;
+	justify-content: flex-end;
+	/*float: right;*/
+}
+
+.footeritems {
+	width: 100px;
+	padding: 0;
+/*	border-right: 1px solid white;
+	border-left: 1px solid white;
+*/}
+
+.footeritems a{
+	color: #fff;
+	text-decoration: none;
+	font-family: Verdana, Sans-Serif;
+	font-size: 15px;
+	padding: 7%;
+	font-weight: 500;
+}
+.footeritems a:hover {
+	color: #000;
+	font-weight: 600;
+}
